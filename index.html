@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 		<title>My Portfolio</title>
@@ -10,29 +14,32 @@
 	</head>
 
 	<body>
-		<div class="">
+		<div >
 			<!-- Nav bar Start -->
-			<div class="bg-secondary p-3 d-flex container-fluid justify-content-center">
-				<nav class="">
-					<ul class="nav justify-content-center">
-					  <li class="nav-item">
-					    <a class="nav-link active text-light" href="#">Home</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link text-light" href="#">Projects</a>
-					  </li>
-					   <li class="nav-item">
-					    <a class="nav-link text-light" href="#">Jerome</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link text-light" href="#">Tools</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link text-light" href="#">Contact</a>
-					  </li>
-					</ul>
-				</nav>
-			</div>
+			<header id="header" class="fixed-top">
+						<!-- nav sec here -->
+						<nav class="nav-menu d-md-block navbar-light navbar-expand-md">
+						<div class="container-fluid d-flex justify-content-between align-items-center">
+							<h1 class="logo "><a class="navbar-brand" href="#">Portfolio</a></h1>
+
+							<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="menu collapse navbar-collapse " id="navbarNav">	
+								<ul class="navbar-nav ml-auto">
+									<li class="active"><a class="tcd" href="#">Home</a></li>
+									<li><a class="tcd nav-link"  href="#">About Me</a></li>
+									<li><a class="tcd nav-link"  href="#">Projects</a></li>
+									<li><a class="tcd nav-link"  href="#">Services</a></li>
+									<li><a class="tcd nav-link"  href="#">Contact</a></li>
+								</ul>
+							
+							</div>
+							</nav>
+							<!-- Nav sec end -->
+						</div>
+					</header>
 			<!-- Nav bar End -->
 
 			<!--Landing -->
@@ -125,6 +132,7 @@
 				<div>
 					<div>
 						<h2>Contact</h2>
+						<a href="https://www.facebook.com/Jedoirled"><img class="rounded" src="./images/fb.png" width="50"></a>
 					</div>
 				</div>
 				<!-- Contact Section end -->
