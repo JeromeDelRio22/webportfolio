@@ -171,6 +171,7 @@ html {
 
 
 }
+
 #txtMe{
 	font-weight: 800;
 	color: #fff;
@@ -182,6 +183,12 @@ html {
 .r-links{
 	background-color: #3E3E3E; 
 }
+
+.prctGif img{
+	display: block;
+	margin: 5rem auto 0
+}
+
 
 #projects h2{
 	color: #fff;
@@ -235,7 +242,7 @@ html {
 .my-tools img{
 	width: 400px ;
 	height: 75px;
-	margin-top: 4rem;
+	margin-top: 4.3rem;
 }
 
 .tool-logo{
@@ -274,6 +281,11 @@ html {
 	box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 	padding: 40px 30px;
 }
+
+.section-title img {
+		display: block;
+		margin: 5rem auto 0
+	}
 
 .contact-form .btn {
 	background: hotpink;
@@ -335,124 +347,124 @@ html {
 		}
 }
 
-@media (max-width: 400px){
-		#header{
-			width: 100%;
-			height: 100vh;
-			background-image: url("./images/348059.webp") ;
-			background-size: cover;
-			background-position: center;
-			color: #fff;
-			position: relative;
-		}
-		
-		#pfolio{
-			
-			display: none;
-		}
-		.menu .navbar-nav li a{
-			display: block;
-			text-align: center;
-		}
-
-		#hello {
-			font-size: 18px;
-			padding: 0;
-			margin: 0;
-		}
-		#myName {
-			font-size:30px ;
-			margin: 0;
-		}
-
-		.navbar-toggler  {
-			margin-top: 20px;
-			margin-right: 20px;]			
-		}
-
-		.menu ul{	
-			margin-right: 20px;
-			background-color: #3E3E3E;
-			z-index: 1;
-		}
-
-		.menu ul li{
-			display: block;
-			line-height: 80px;
-			margin: 0 15px;
-			
-		}
-
-		.menu ul li a{
-			position: relative;
-			color: white;
-			font-size:18px;
-			padding: 5px 0;
-			text-align: center;
-			z-index: 1;
-			
-		}
-		ul{
-			position: absolute;
-			width: 100%;
-			height: 100vh;
-			background: #34495e;
-			top: 80px;
-			left: 0%;
-			text-align: center;
-			transition: all .5s;
-			border: 1px solid	black;
-	}
-		/*#hText p {
-		position: relative;
-		z-index: 2;
-		}
-*/
-
-}
-}
+@media (max-width: 400px) {
+#header {
+	width: 100%;
+	height: 100vh;
+	background-image: url("http://www.thaqafnafsak.com/wp-content/uploads/2014/09/fancy-letter-j1.gif");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	position: relative;
 }
 
-
-
-
-
-
-
-
-.card {
-  background-color: #40444b;
-  color: #fff;
-  border: none;
+#pfolio {
+	display: none;
 }
 
-.card img {
- 
+#aboutMe {
+	background-color: lightgray;
+	color: darkblue;
+	padding: 0 15px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: monospace;
+	font-size: 0.88rem;
+	margin: 0;
 }
 
-.card h5 {
-  
+.menu .navbar-nav li a {
+	display: block;
+	text-align: center;
 }
 
-.card p {
-  
+#hello {
+	font-size: 18px;
+	margin-top: 100px;
 }
-
 
 #myName {
-  
+	font-size: 30px;
+	margin: 0;
 }
 
-#myName span {
-  
+.navbar-toggler {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.menu ul {
+	margin-right: 20px;
+	background-color: #3e3e3e;
+	z-index: 1;
+}
+
+.menu ul li {
+	display: block;
+	line-height: 80px;
+	margin: 0 15px;
+}
+
+.menu ul li a {
+	position: relative;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0;
+	text-align: center;
+	z-index: 1;
+}
+
+ul {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background: #34495e;
+	top: 80px;
+	left: 0%;
+	text-align: center;
+	transition: all 0.5s;
+	border: 1px solid black;
+}
+
+.card {
+	background-color: #40444b;
+	color: #fff;
+	border: none;
+}
+
+.img-about img {
+	text-align: center;
+	height: 300px;
+	border-radius: 25px;
+	width: 300px;
+	max-height: 200px;
+	object-fit: cover;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-tools img{
+	width: 300px ;
+	height: 75px;
+	margin-top: 4.3rem;
+}
+
+.section-title img{
+	width: 300px ;
+	height: 75px;
+	margin-top: 4.3rem;
 }
 
 #mySkill {
-  font-size: 25px;
-  font-weight: 500;
-  color: #b9bbbe;
+	font-size: 20px;
+	font-weight: 500;
+	color: #b9bbbe;
 }
 
 #txtMe span {
-  color: #7289da;
+	color: #7289da;
+}
 }
